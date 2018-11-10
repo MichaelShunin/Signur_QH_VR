@@ -1,0 +1,1 @@
+update eksp set access = 10 where access = -1;

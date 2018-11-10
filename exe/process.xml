@@ -1,0 +1,50 @@
+<?xml version="1.0"
+ standalone="yes"?>
+<datapacket version="2.000" destination="" day="21" month="5" year="2004" hour="18" min="47" sec="5" msec="77">
+<metadata fielddefs="yes" indexdefs="no" recorddata="yes" changes="yes">
+<fielddefs count="10">
+<fielddef name="SELECTSIGNAL" fieldkind="data" datatype="smallint" fieldsize="0" displaylabel="SELECTSIGNAL" editmask="" displaywidth="10" fieldindex="0" required="false" readonly="false"/>
+<fielddef name="PARTALL" fieldkind="data" datatype="string" fieldsize="1" displaylabel="PARTALL" editmask="" displaywidth="1" fieldindex="1" required="false" readonly="false"/>
+<fielddef name="BSHOWRESULT" fieldkind="data" datatype="string" fieldsize="1" displaylabel="BSHOWRESULT" editmask="" displaywidth="1" fieldindex="2" required="false" readonly="false"/>
+<fielddef name="SHOWWIN" fieldkind="data" datatype="smallint" fieldsize="0" displaylabel="SHOWWIN" editmask="" displaywidth="10" fieldindex="3" required="false" readonly="false"/>
+<fielddef name="HEADWIN" fieldkind="data" datatype="string" fieldsize="40" displaylabel="HEADWIN" editmask="" displaywidth="40" fieldindex="4" required="false" readonly="false"/>
+<fielddef name="PAGENAME" fieldkind="data" datatype="string" fieldsize="20" displaylabel="PAGENAME" editmask="" displaywidth="20" fieldindex="5" required="false" readonly="false"/>
+<fielddef name="SIGNUMSOURCE_A" fieldkind="data" datatype="integer" fieldsize="0" displaylabel="SIGNUMSOURCE_A" editmask="" displaywidth="10" fieldindex="6" required="false" readonly="false"/>
+<fielddef name="SIGNUMSOURCE_B" fieldkind="data" datatype="integer" fieldsize="0" displaylabel="SIGNUMSOURCE_B" editmask="" displaywidth="10" fieldindex="7" required="false" readonly="false"/>
+<fielddef name="FILENAMEDEST" fieldkind="data" datatype="string" fieldsize="80" displaylabel="FILENAMEDEST" editmask="" displaywidth="80" fieldindex="8" required="false" readonly="false"/>
+<fielddef name="RESULTTIP" fieldkind="data" datatype="smallint" fieldsize="0" displaylabel="RESULTTIP" editmask="" displaywidth="10" fieldindex="9" required="false" readonly="false"/>
+</fielddefs>
+<indexdefs count="0">
+</indexdefs>
+</metadata>
+<recorddata count="1">
+<row>
+<field name="SELECTSIGNAL" value="2"/>
+<field name="PARTALL" size="1">
+<![CDATA[
+VA==
+]]>
+</field>
+<field name="BSHOWRESULT" size="1">
+<![CDATA[
+VA==
+]]>
+</field>
+<field name="SHOWWIN" value="0"/>
+<field name="HEADWIN" size="34">
+<![CDATA[
+IyMjIyMjOiAjIygxMCk9IDMsNTAgIyMoMTApPTQsMDAjIw==
+]]>
+</field>
+<field name="PAGENAME" size="18">
+<![CDATA[
+IyM9Myw1MCAgIyM9NCwwMEh6
+]]>
+</field>
+<field name="SIGNUMSOURCE_A" value="1"/>
+<field name="SIGNUMSOURCE_B" value="1"/>
+<field name="FILENAMEDEST" size="-1"/>
+<field name="RESULTTIP" value="0"/>
+</row>
+</recorddata>
+</datapacket>

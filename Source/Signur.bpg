@@ -1,0 +1,33 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = import_LNG.dll FTIME_P.exe GemisSignur.exe import_ASCII.dll \
+  GetSignurData.exe
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+GemisSignur.exe: GemisSignur.dpr
+  $(DCC)
+
+import_LNG.dll: import_LNG.dpr
+  $(DCC)
+
+FTIME_P.exe: FTIME_P.DPR
+  $(DCC)
+
+import_ASCII.dll: import_ASCII.dpr
+  $(DCC)
+
+GetSignurData.exe: GetSignurData.dpr
+  $(DCC)
+
+

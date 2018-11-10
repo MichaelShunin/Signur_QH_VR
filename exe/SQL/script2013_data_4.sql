@@ -1,0 +1,1 @@
+update devices set DEVICE_NAME = '¿ –ŒÕ-2', STARTNUMBER_LARGEARCH = 2000  where id_device = 16;

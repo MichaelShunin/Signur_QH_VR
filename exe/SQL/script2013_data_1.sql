@@ -1,0 +1,1 @@
+delete from devices where id_device = 16;

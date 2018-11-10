@@ -1,0 +1,1 @@
+update devices set device_name='ÀÊĞÎÍ-02-1' where id_device = 22
